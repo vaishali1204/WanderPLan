@@ -1,0 +1,180 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderPlan</title>
+
+    <style>
+
+		html, body {
+  height: 100%;
+}
+
+.center1
+{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+.navbar-brand{
+  text-align: center;
+  color: yellow;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+.tum{
+	text-shadow: 3px 3px 6px red;
+	font-size: 50px;
+	color: lightgoldenrodyellow;
+}
+
+.abc{
+    text-shadow: 2px 2px 5px rgb(255, 0, 0);
+}
+
+
+
+</style>
+
+    <link rel="stylesheet" href="\static\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+    <div class="container-fluid center1" style="background-color: rgba(0, 0, 0, 0.893)">
+        
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="\static\images\image1.jpg" alt="Los Angeles" width="1600" height="650">
+        <div class="carousel-caption">
+          <h3>Maldives</h3>
+          <p>LA is always so much fun!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="\static\images\image2.jpg" alt="Chicago" width="1550" height="650">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="\static\images\image3.jpg" alt="New York" width="1550" height="650">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <div class="centered" 
+    style="font-size: 65px;text-shadow: 3px 3px 6px red; color: hsl(39, 100%, 50%);border: 3px solid black; padding: 5px;">
+        Welcome To WanderPlan</div>
+
+</div>
+
+
+
+<div style="background-color: rgba(0, 0, 0, 0.893);">
+    <section class="container" style="border: 2px black solid;background-color:whitesmoke;">
+        
+        <div style="background-color: hsl(0, 0%, 100%);margin: 10px;padding: 40px;border: 3px solid black;">
+        <form action="/generate_itinerary" method="post">
+            <div class="form-group">
+                <label for="location" style="color: black;">Location:</label>
+                <select id="location" style="color: black;" name="location" required>
+                    <option value="" disabled selected>Select a location</option>
+                    <option value="Amritsar">Amritsar</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Darjeeling">Darjeeling</option>
+                    <option value="Hampi">Hampi</option>
+                    <option value="Haridwar">Haridwar</option>
+                    <option value="Jaisalmer">Jaisalmer</option>
+                    <option value="Kasol">Kasol</option>
+                    <option value="Kodaikanal">Kodaikanal</option>
+                    <option value="Mathura">Mathura</option>
+                    <option value="Munnar">Munnar</option>
+                    <option value="Ooty">Ooty</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Rishikesh">Rishikesh</option>
+                    <option value="Shirdi">Shirdi</option>
+                    <option value="Srinagar">Srinagar</option>
+                    <!-- Add more options up to your choice -->
+                </select><br>
+            </div>
+
+            <div class="form-group">
+                <label for="budget" style="color: black;">Budget:</label>
+                <input style="color: black;" type="number" id="budget" name="budget" min="0" placeholder="Enter your budget" required>
+            </div>
+
+            <div class="form-group">
+                <label for="days" style="color: black;">Days:</label>
+                <input style="color: black;" type="number" id="days" name="days" placeholder="Enter the number of days" required>
+            </div>
+
+            <button type="submit" style="color: white;">Generate Itinerary</button>
+        </form>
+        </div>
+    </section>
+</div>
+    <footer>&copy; 2023 WanderPlan. All rights reserved.</footer>
+</body>
+</html>

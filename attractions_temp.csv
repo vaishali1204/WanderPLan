@@ -1,0 +1,161 @@
+location,location_state,attraction,time,price,rating
+Amritsar,Punjab,Golden Temple,3,0,4.5
+Amritsar,Punjab,Wagah Border,3,0,4.4
+Amritsar,Punjab,Jallianwala Bagh,2,0,4.4
+Amritsar,Punjab,Partition Museum,3,20,4
+Amritsar,Punjab,Harike Wetland and Bird Sanctuary,3,0,4
+Amritsar,Punjab,Maharaja Ranjit Singh Museum,2,50,3.5
+Amritsar,Punjab,Punjab State War Heroes Memorial and Museum,2,100,4
+Amritsar,Punjab,Mata Lal Devi Mandir,2,0,4
+Amritsar,Punjab,Akal Takht,1,0,4
+Amritsar,Punjab,Gobindgarh Fort,5,500,4
+Andaman and Nicobar Islands,Andaman and Nicobar Islands,Cellular Jail,4,1000,4.5
+Andaman and Nicobar Islands,Andaman and Nicobar Islands,Radhanagar Beach,3,500,4.6
+Andaman and Nicobar Islands,Andaman and Nicobar Islands,Elephant Beach,4,800,4.8
+Andaman and Nicobar Islands,Andaman and Nicobar Islands,Mount Harriet National Park,4,100,4.3
+Andaman and Nicobar Islands,Andaman and Nicobar Islands,Chidiya Tapu,2,0,4.3
+Andaman and Nicobar Islands,Andaman and Nicobar Islands,Ross Island,24,600,4.4
+Andaman and Nicobar Islands,Andaman and Nicobar Islands,Bharatpur Beach,3,0,4.3
+Andaman and Nicobar Islands,Andaman and Nicobar Islands,Night Kayaking in Andaman,2,1500,4.4
+Andaman and Nicobar Islands,Andaman and Nicobar Islands,Mahatma Gandhi Marine National Park,2,300,3.5
+Andaman and Nicobar Islands,Andaman and Nicobar Islands,Seakart in Andaman,2,1300,4
+Chennai,Tamil Nadu,Marina Beach,3,0,4.3
+Chennai,Tamil Nadu,Government Museum,2,0,4
+Chennai,Tamil Nadu,Breezy Beach,2,0,3.6
+Chennai,Tamil Nadu,Marundeeswarar Temple,2,0,4.3
+Chennai,Tamil Nadu,Arignar Anna Zoological Park,4,200,4.2
+Chennai,Tamil Nadu,Valluvar Kottam,2,10,4.2
+Chennai,Tamil Nadu,Ashatalakshmi Temple ,2,0,4.2
+Chennai,Tamil Nadu,Connemara Public Library,2,0,4.2
+Chennai,Tamil Nadu,Elliot's Beach,2,0,4.2
+Chennai,Tamil Nadu,Dakshinachitra Museum,3,200,3
+Darjeeling,West Bengal,Darjeeling Himalayan Railway,4,600,4.3
+Darjeeling,West Bengal,Tiger Hill,2,50,4.5
+Darjeeling,West Bengal,Batasia Loop,2,15,4.3
+Darjeeling,West Bengal,Darjeeling Ropeway,2,200,4.3
+Darjeeling,West Bengal,Darjeeling Rock Garden,1,20,4.5
+Darjeeling,West Bengal,Singalila National Park,4,600,4.8
+Darjeeling,West Bengal,Nightingale Park,2,10,4.3
+Darjeeling,West Bengal,Darjeeling Peace Pagoda,2,100,4.6
+Darjeeling,West Bengal,River Rafting in Teesta,4,800,4.5
+Darjeeling,West Bengal,Padmaja Naidu Himalayan National Park,4,50,3.8
+Hampi,Karnataka,Virupaksha Temple,2,0,4.5
+Hampi,Karnataka,Vithala Temple,2,0,3.7
+Hampi,Karnataka,Lotus Palace,3,50,3.6
+Hampi,Karnataka,Yantrodharaka Hanuman Temple,2,0,3.6
+Hampi,Karnataka,Hampi Bazaar,3,100,3.6
+Hampi,Karnataka,Hippie Island / Virupapur Gadde,4,300,3
+Hampi,Karnataka,Coracle Ride,3,300,4
+Hampi,Karnataka,Queen's Bath,2,0,3.8
+Hampi,Karnataka,Matanga Hills ,5,600,3.6
+Hampi,Karnataka,Elephant Stables,1,50,3.6
+Haridwar,Uttarakhand,Chandi Devi Temple,2,200,4.4
+Haridwar,Uttarakhand,Ganga Aarti,2,100,4.6
+Haridwar,Uttarakhand,Mansa Devi Temple,3,200,4.3
+Haridwar,Uttarakhand,Rajaji National Park,48,15,4.2
+Haridwar,Uttarakhand,Daksha Mahadev Temple,2,20,3.9
+Haridwar,Uttarakhand,Pawan Dham,0.5,10,4.3
+Haridwar,Uttarakhand,Vaishno Devi Temple,1,120,3.8
+Haridwar,Uttarakhand,Bhimgoda Tank,3,100,4.2
+Haridwar,Uttarakhand,Parad Shivling,2,50,4.2
+Haridwar,Uttarakhand,Kushavarta Ghat,1,100,4.2
+Jaisalmer,Rajasthan,Jaisalmer Fort,4,200,4.4
+Jaisalmer,Rajasthan,Desert Safari in Jaisalmer,5,1000,4.6
+Jaisalmer,Rajasthan,Gadisar Lake,2,100,4.3
+Jaisalmer,Rajasthan,Patwon Ki Haveli,2,150,4.1
+Jaisalmer,Rajasthan,Sam Sand Dunes,4,0,4.2
+Jaisalmer,Rajasthan,Jain Temples in Jaisalmer,2,100,4
+Jaisalmer,Rajasthan,Nathmal Ki Haveli,3,0,3.8
+Jaisalmer,Rajasthan,Kuldhara Village,3,60,4.2
+Jaisalmer,Rajasthan,Vyas Chhatri,2,0,3
+Jaisalmer,Rajasthan,Desert National Park,3,500,4.1
+Kasol,Himachal Pradesh,Manikaran Sahib,24,50,3.9
+Kasol,Himachal Pradesh,Nature Park Kasol,3,30,4.5
+Kasol,Himachal Pradesh,Tosh,6,1000,4.2
+Kasol,Himachal Pradesh,Parvati River,5,500,4.5
+Kasol,Himachal Pradesh,Chahal,72,4000,4.4
+Kasol,Himachal Pradesh,Rasol,48,2000,4.1
+Kasol,Himachal Pradesh,The Evergreen Cafe,2,500,4.2
+Kasol,Himachal Pradesh,Sar Pass Trek,120,3000,4
+Kasol,Himachal Pradesh,Buddha Place,2,20,4
+Kasol,Himachal Pradesh,Flea Market,2,200,4.3
+Kodaikanal,Karnataka,Green Valley View (Suicide Point),1,0,3.6
+Kodaikanal,Karnataka,Kodaikanal Lake,2,0,3.6
+Kodaikanal,Karnataka,Bear Shola Falls,3,0,4.2
+Kodaikanal,Karnataka,Dolphin's Nose,4,0,3.2
+Kodaikanal,Karnataka,Pillar Rocks,1,30,3.6
+Kodaikanal,Karnataka,Thalaiyar Falls,2,0,4.2
+Kodaikanal,Karnataka,Vattakanal,48,0,4
+Kodaikanal,Karnataka,Devil's Kitchen,0.5,20,3.5
+Kodaikanal,Karnataka,Coaker's Walk,2,50,4.3
+Kodaikanal,Karnataka,Berijam Lake,3,100,4.3
+Mathura,Uttar Pradesh,Radha Vallabh Mandir,2,25,4.2
+Mathura,Uttar Pradesh,Vishram Ghat,3,30,3.2
+Mathura,Uttar Pradesh,Govardhan Hill,3,0,4.2
+Mathura,Uttar Pradesh,Mathura Museum,2,20,4.2
+Mathura,Uttar Pradesh,Vaishno Devi Dham,2,20,4.3
+Mathura,Uttar Pradesh,Birla Mandir,2,30,3.2
+Mathura,Uttar Pradesh,Dwarkadheesh Temple,2,50,3.7
+Mathura,Uttar Pradesh,Shri Krishna Janmashtan Temple,3,60,3.6
+Mathura,Uttar Pradesh,Gopeshwar Mahadev Temple,2,40,3.2
+Mathura,Uttar Pradesh,Dauji Mandir,2,50,4.3
+Munnar,Kerala,Echo Point,2,30,4.5
+Munnar,Kerala,Atukkad Waterfalls,3,0,4.1
+Munnar,Kerala,Tata Tea Museum,2,75,4
+Munnar,Kerala,Eravikulam National Park,5,90,4.6
+Munnar,Kerala,Rose Garden,2,20,4.2
+Munnar,Kerala,Mattupetty Dam,2,300,4.5
+Munnar,Kerala,Top Station,2,0,4.5
+Munnar,Kerala,Munnar Jeep Safari,3,5500,4.3
+Munnar,Kerala,Punarjani Traditional Village,2,200,4.2
+Munnar,Kerala,Anamudi Peak,4,0,4.3
+Ooty,Tamil Nadu,Nilgiri Mountain Railway,6,300,4.5
+Ooty,Tamil Nadu,Ooty Lake,2,500,4.4
+Ooty,Tamil Nadu,Emerald Lake,2,0,4.3
+Ooty,Tamil Nadu,Pykara Lake,2,100,3.5
+Ooty,Tamil Nadu,Ooty Botanical Gardens,2,200,4.3
+Ooty,Tamil Nadu,Ooty Rose Garden,2,150,3.7
+Ooty,Tamil Nadu,Avalanche Lake,2,0,3.5
+Ooty,Tamil Nadu,Doddabetta Peak,24,100,3.5
+Ooty,Tamil Nadu,St. Stephen's Church Ooty,2,0,3
+Ooty,Tamil Nadu,Thread Garden,2,150,3.8
+Pune,Maharashtra,Shaniwar Wada,3,20,4.3
+Pune,Maharashtra,Aga Khan Temple,4,50,4.4
+Pune,Maharashtra,Osho Ashram,2,0,4.2
+Pune,Maharashtra,Katraj Snake Park,3,30,4.2
+Pune,Maharashtra,Rajmachi,24,100,4.2
+Pune,Maharashtra,Panshet Water Park,2,0,3.2
+Pune,Maharashtra,Lal Mahal,2,70,4.2
+Pune,Maharashtra,National War Museum,1,50,3.5
+Pune,Maharashtra,Sund Garden,0.5,15,4.3
+Pune ,Maharashtra,Sinhagad Fort,3,0,4.2
+Rishikesh,Uttarakhand,Rafting ,5,1000,4.5
+Rishikesh,Uttarakhand,Laxman Jhula,0.5,0,4.5
+Rishikesh,Uttarakhand,Ganga Aarti,1.5,0,4.3
+Rishikesh,Uttarakhand,Neelkanth Mahadev Temple,5,500,4.5
+Rishikesh,Uttarakhand,The Beatles Ashram,2,250,4
+Rishikesh,Uttarakhand,Bungee Jumping,5,500,4
+Rishikesh,Uttarakhand,Neer Garh Waterfall,2,0,4
+Rishikesh,Uttarakhand,Triveni Ghat,1,0,4
+Rishikesh,Uttarakhand,Janki Jhula,1,0,4
+Rishikesh,Uttarakhand,Ram Jhula,1,0,4
+Shirdi,Maharashtra,Dwarkamai,2,100,3.7
+Shirdi,Maharashtra,Samadhi Mandir,1,50,3.5
+Shirdi,Maharashtra,Shani Shingnapur,2,300,4.2
+Shirdi,Maharashtra,Shri Sai Baba Sansthan Temple,4,4,3.6
+Shirdi,Maharashtra,Chavadi,3,50,3.5
+Shirdi,Maharashtra,Dixit Wada Museum,1,0,3.2
+Shirdi,Maharashtra,Khandoba Mandir,1,0,3.2
+Shirdi,Maharashtra,Sai Teerth,2,399,4.3
+Shirdi,Maharashtra,Prasadalaya,3,10,4
+Shirdi,Maharashtra,Adul Baba Cottage,4,500,4.3
+Srinagar,Jammu and Kashmir,Dal Lake,3,0,4.4
+Srinagar,Jammu and Kashmir,Indira Gandhi Memorial Tulip Garden,2,50,4.3
+Srinagar,Jammu and Kashmir,Shankaracharya Temple,3,0,4.1
+Srinagar,Jammu and Kashmir,Shikara Ride,3,700,4.6
+Srinagar,Jammu and Kashmir,Nigeen Lake,2,0,4.3
+Srinagar,Jammu and Kashmir,Nishat Bagh,3,10,4.3
+Srinagar,Jammu and Kashmir,Shalimar Bagh Mughal Garden,2,10,4.3
+Srinagar,Jammu and Kashmir,Doodhpathri,2,0,4
+Srinagar,Jammu and Kashmir,Chashme Shahi,2,0,4.3
+Srinagar,Jammu and Kashmir,Char Chinar,1,0,4.2

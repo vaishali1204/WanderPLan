@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderPlan</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='plan_trip_style.css') }}">
+</head>
+<body>
+    <div style = "text-align: center;">
+        <h1 style="font-size: 65px;text-shadow: 3px 3px 6px red; color: hsl(39, 100%, 50%);">WanderPlan</h1>
+        {% if itinerary %}
+        <h2 style="font-size: 65px;text-shadow: 3px 3px 6px red; color: hsl(39, 100%, 50%);">Generated Itinerary</h2>
+
+            <div style="text-align: center; padding-bottom: 50px;">
+            {% for day_data in itinerary['days'] %}
+            <div id = "first_one">
+                <h3 style="font-size: 65px;text-shadow: 3px 3px 6px red; color: hsl(39, 100%, 50%);">Day {{ loop.index }}:</h3>
+
+                {% if day_data['attractions'] %}
+                <ul>
+                    {% for attraction in day_data['attractions'] %}
+                        <li>
+                            {{ attraction['name'] }} (Rating: {{ attraction['rating'] }},
+                            Price: {{ attraction['price'] }} INR, Time: {{ attraction['time'] }} hours)
+                        </li>
+                    {% endfor %}
+                </ul>
+
+                <p>Total expenditure: {{ day_data['daily_spending'] }} INR</p>
+                <p>Total time spent: {{ day_data['daily_hours_spent'] }} hours</p>
+            {% endif %}
+            </div>
+
+            <div>
+                <br>
+                <br>
+            </div>
+            
+        {% endfor %}
+        </div>
+        
+
+        <h2 style="font-size: 65px;text-shadow: 3px 3px 6px red; color: hsl(39, 100%, 50%); margin-top: 0%; padding-top: 0%;">Total Summary</h2>
+        <p>Total expenditure (excluding travel): {{ itinerary['total_spending'] }} INR (out of {{ itinerary['total_budget'] }} INR)</p>
+        <p>Total time spent in exploring the location: {{ itinerary['total_hours_spent'] }} hours</p>
+
+        <!-- Add "Plan This Trip" button -->
+        <form action="/plan_trip" method="post">
+            <input type="submit" value="Plan This Trip">
+        </form>
+    </div>
+
+    <div id="planTripForm" class="container-forms" style="display: none;">
+            <h2>Budget Management</h2>
+
+            <!-- Budget Management Form -->
+            <form class = "budget-form" action="/plan_trip" method="post">
+                <label for="member">Member Name:</label>
+                <input type="text" id="member" name="member" required><br>
+
+                <label for="expense">Expense Amount:</label>
+                <input type="number" id="expense" name="expense" required><br>
+
+                <input type="submit" value="Add Expense">
+            </form>
+
+            <!-- Task Planner Form -->
+            <h2>Task Planner</h2>
+            <form class = "task-form" action="/plan_trip" method="post">
+                <label for="task">Add Task:</label>
+                <textarea id="task" name="task" rows="4" cols="50"></textarea><br>
+
+                <input type="submit" value="Add Task">
+            </form>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; background-color: #f0f0f0; padding: 20px;">
+
+            <!-- Budget Data -->
+            <div style="width: 48%; background-color: #f9f9f9; padding: 10px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+                <h3>Budget Data</h3>
+                <ol>
+                    {% for expense in budget_data %}
+                        <li>{{ expense['member'] }} paid {{ expense['amount'] }} INR
+                            {% if 'date' in expense %}
+                                on {{ expense['date'].strftime("%Y-%m-%d %H:%M") }}
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ol>
+            </div>
+
+            <!-- Task Planner -->
+            <div style="width: 48%; background-color: #f9f9f9; padding: 10px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+                <h3>Task Planner</h3>
+                <ol>
+                    {% for task in tasks_data %}
+                        <li>{{ task['task'] }}</li>
+                    {% endfor %}
+                </ol>
+            </div>
+        </div>
+        {% endif %}
+
+        <script>
+            document.querySelector('form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                document.getElementById('planTripForm').style.display = 'flex'; // Set display to flex
+            });
+        </script>    
+</body>
+</html>
